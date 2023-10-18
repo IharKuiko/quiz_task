@@ -1,0 +1,52 @@
+:root {
+    --hover-bg-color: #9E00FF;
+    --hover-fg-color: white;
+    --main-bg-color: #F9EFFF;
+    --main-fg-color: #000000;
+    --button-bg-color: #000000;
+    --button-fg-color: #ffffff;
+    --splash-bg-color: #ffffff;
+    --footer-bg-color: #000000;
+    --footer-fg-color: #ffffff;
+    --menu-fg-color: #000000;
+    --slidenav-bg-color: #ffffff;
+    --slidenav-fg-color: #000000;
+    --slidenav-active-bg-color: #000000;
+    --slidenav-active-fg-color: #ffffff;
+    --slide-bg-color: #ffffff;
+    --slide-fg-color: var(--menu-fg-color);
+    --slide-shadow1-color: #E9C4FF;
+    --slide-shadow2-color: #F0D9FF;
+    --color3: #FF004C;
+    --color5: #F2F2F2;
+
+    --text-font: 'Raleway', 'Arial', sans-serif;
+    --title-font: 'Neue Machina', 'Verdana', 'Arial', sans-serif;
+    
+    --splash-bg-image: url('/assets/img/splash-bg1.jpg'), url('/assets/img/splash-bg2.jpg');
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('/assets/fonts/NeueMachina-Bold.eot');
+    src: local('Neue Machina Bold'), local('NeueMachina-Bold'),
+        url('/assets/fonts/NeueMachina-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/NeueMachina-Bold.woff2') format('woff2'),
+        url('/assets/fonts/NeueMachina-Bold.woff') format('woff'),
+        url('/assets/fonts/NeueMachina-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('/assets/fonts/NeueMachina-Ultrabold.eot');
+    src: local('Neue Machina Ultrabold'), local('NeueMachina-Ultrabold'),
+        url('/assets/fonts/NeueMachina-Ultrabold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/NeueMachina-Ultrabold.woff2') format('woff2'),
+        url('/assets/fonts/NeueMachina-Ultrabold.woff') format('woff'),
+        url('/assets/fonts/NeueMachina-Ultrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+

@@ -1,0 +1,10 @@
+{
+  "plugins": {
+    "posthtml-modules": {
+      "root": "src/templates",
+      "tag": "import",
+      "attribute": "template",
+      "attributeAsLocals": true
+    }
+  }
+}

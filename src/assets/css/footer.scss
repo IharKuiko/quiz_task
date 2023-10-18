@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--footer-bg-color);
+    color: var(--footer-fg-color);
+    border-radius: 2rem 2rem 0rem 0rem;
+    padding: 2rem 3rem;
+
+    .footer__info {
+        margin-bottom: 2rem;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+
+        .info__text {
+            font-family: var(--title-font);
+            font-size: 3rem;
+            font-weight: 700;
+            
+            a {
+                color: white;
+            }
+        }
+    }
+
+    .footer__logo {
+        align-self: flex-end;
+    }
+}

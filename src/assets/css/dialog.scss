@@ -1,0 +1,43 @@
+.dialog {
+    width: 60vw;
+    max-height: 70vh;
+    border-radius: 2rem;
+    padding: 3rem 2rem;
+    background: white;
+    color: black;
+
+    &::backdrop {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    &__title {
+      font-family: Neue Machina;
+      font-size: 4.5rem;
+      font-weight: 700;
+      margin-top: -1rem;
+      line-height: 4rem;
+    }
+
+    &__next {
+      width: 100%;
+      margin-top: 4rem;
+    }
+}
+
+.close-btn {
+  float: right;
+  margin-right: -1rem;
+  margin-top: -2rem;
+  font-size: 3.25rem;
+  line-height: 2.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  background: white;
+  color: black;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--hover-color);
+    color: white;
+  }
+}

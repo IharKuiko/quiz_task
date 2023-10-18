@@ -1,0 +1,8 @@
+@import 'theme.scss';
+@import 'common.scss';
+@import 'header.scss';
+@import 'main.scss';
+@import 'quiz.scss';
+@import 'reviews.scss';
+@import 'footer.scss';
+@import 'dialog.scss';
