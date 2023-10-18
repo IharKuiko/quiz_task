@@ -1,5 +1,5 @@
 # quiz_task
-`src` folder contains sources, `assets` contains static files, `site`  contains resulting website files.
+`src` folder contains sources, `assets` contains static files, ~~`site`~~ `docs` contains resulting website files.
 
 ## build site
 install npm then run: 

@@ -7,10 +7,10 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "npm run clean && cpy assets site/ && cpy --flat src/assets/js site/assets/js/ && npm run build:html && npm run build:css",
-    "build:html": "posthtml src/index.html -o site/index.html && replace \\\"/ \\\" site/index.html",
-    "build:css": "postcss src/assets/css/style.css -o site/assets/css/style.css && replace \"'/assets/\" \"'../\" site/assets/css/style.css",
-    "clean": "rimraf site"
+    "build": "npm run clean && cpy assets docs/ && cpy --flat src/assets/js docs/assets/js/ && npm run build:html && npm run build:css",
+    "build:html": "posthtml src/index.html -o docs/index.html && replace \\\"/ \\\" docs/index.html",
+    "build:css": "postcss src/assets/css/style.css -o docs/assets/css/style.css && replace \"'/assets/\" \"'../\" docs/assets/css/style.css",
+    "clean": "rimraf docs"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
